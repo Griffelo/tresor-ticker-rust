@@ -1,9 +1,12 @@
 [package]
-name = "rust-scraper"
+name = "tresor_ticker_rust"
 version = "0.1.0"
 edition = "2018"
 
 [dependencies]
 http = "0.1"
-lambda_runtime = "*"
 reqwest = "*"
+now_lambda = "*"
+chrono = "0.4"
+time = "*"
+json = "*"
